@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mackbook pro </title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <div class="container grid grid-cols-2 mx-auto">
+                <div class="first-part p-7">
+                    <img src="images/mac.png" alt="">
+                </div>
+                <div class="secend-part p-7">
+                    <div class="text-part">
+                        <h2 class="text-3xl font-medium">Customize your Blue 24-inch iMac with Apple M1 chip.</h2>
+                        <p class="font-normal mt-5">Apple M1 chip with 8-core CPU with 4 performanc cores and 4
+                            efficiency
+                            cores-7 CPU and
+                            16-core Neural Engine 8GB unified memory 265GB SSD storage Two Thunderbolt/USB 4 ports Magic
+                            Mouse Magic Keyoard US English</p>
+                    </div>
+                    <div class="input-part">
+                        <div class="first-input-part mt-5">
+                            <h4>Ram</h4>
+                            <button id="firstMemory" class="py-2 px-1 border-2 text-current">8GB Unified
+                                Memory</button>
+                            <button id="secendMemory" class="py-2 px-1 border-2 text-current">16GB Unified
+                                Memory</button>
+                        </div>
+                        <div class="secend-input-part mt-5 ">
+                            <h4>Stroage</h4>
+                            <div class=" grid grid-cols-3 ">
+                                <button id="firstStroage" class="py-2 px-1 border-2 text-
+                                text-current">256GB SSD stroage</button>
+                                <button id="secendStroage" class="py-2 px-1 border-2 text-current">512GB SSD
+                                    stroage</button>
+                                <button id="thirdStroage" class="py-2 px-1 border-2 text-current">1TB SSD
+                                    stroage</button>
+                            </div>
+
+                        </div>
+                        <div class="third-input-part mt-5">
+                            <h4>Chose your delivery option</h4>
+                            <div class="input-position grid grid-cols-2">
+                                <button id="freeDelivary" class="py-2 px-1 border-2 text-current">Friday,Aug 25 Free
+                                    delevary</button>
+                                <button id="costDelivary" class="py-2 px-1 border-2 text-current">Friday,Aug 28 delevery
+                                    $20</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="price-part ">
+                        <table class="mt-5">
+                            <tr class="mt-2 grid grid-cols-2 border-b-2 border-fuchsia-600">
+                                <td>Best price</td>
+                                <td class="ml-16">$1299</td>
+                            </tr>
+                            <tr class="mt-2 grid grid-cols-2 border-b-2 border-fuchsia-600">
+                                <td>Extra Memory coast</td>
+                                <td class="ml-16">$<span id="stroageDollar">0</span>
+                                </td>
+                            </tr>
+                            <tr class="mt-2 grid grid-cols-2 border-b-2 border-fuchsia-600 ">
+                                <td>Extra stroage coast</td>
+                                <td class="ml-16">$<span id="StroageCost">0</span></td>
+                            </tr>
+                            <tr class="mt-2 grid grid-cols-2">
+                                <td>Delevary charge</td>
+                                <td class="ml-16">$<span id="delivaryAmount">0</span></td>
+                            </tr>
+                            <tr class="mt-2 grid grid-cols-2 border-t-4 border-gray-800 ">
+                                <td>Total price</td>
+                                <td class="ml-16">$<span id="totalPrice">1299</span></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div class="promo-coad-part">
+                        <div class="add-part mt-5">
+                            <h4>Add promo coad</h4>
+                            <input placeholder="Enter your coad" class="py-1 px-1 border-2 text-current">
+                            <button class="text-white my-2 mx-1 border-2 rounded bg-red-500 py-1 px-2">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-section border-t-2">
+                <h2 class="totaP text-3xl py-2 mx-72">
+                    Total price: $<span id="lastPrize">1299</span>
+                </h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
